@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo img{
+   height: 35px; 
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+header{
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png?raw=true');
+    margin-left:155px;
+    margin-right: 5px;
+}
+header nav{
+    margin-top: 20px;
+}
+.arrow{
+   margin-top: 250px;
+}
+.doctor img{
+    margin-bottom: 120px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.Appointmnent-button{
+    display: flex;
+}
+.mouse-img {
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.Appointmnent-button {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    background-color: lightgreen;
+    border: none;
+    margin-top: 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+margin-top: 150px;
+}
+.description h1{
+color:green;
+font-weight: 800;
+font-size: 28px;
+}
+.achievements span{
+    font-size: 20px;
+    color:green;
+font-weight: 800;
+}
+.description p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.achievement-section p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.achievement-section{
+    display: flex;
+    margin-left:430px;
+    gap: 20px;
+    padding: 10px;
+}
+.achievement-section button{
+    padding:5px 25px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 160px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom:130px;
+    margin-left: 500px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    height: 270px;
+    width: 250px;
+}
+form h2{
+font-weight: 900;
+}
+form span{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px;
+    margin-left: 5px;
+    text-align: start;
+}
+form input{
+    padding: 5px 20px;
+    text-align: end;
+    border-radius: 5px;
+}
+form button{
+    background-color:lightgreen;
+    margin-top: 15px;
+    color: white;
+    padding:5px 70px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
